@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# TensorFlow model files
+*.ckpt
+*.pb
+saved_model/
+
+# TensorBoard logs
+logs/
+logdir/
+
+# Checkpoints
+checkpoints/
+
+# Dataset cache
+*.tfrecord
+.cache/
+
